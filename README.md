@@ -33,7 +33,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/explo1ttt/WebDroid.git
+git clone https://github.com/explo1ttt-0/WebDroid.git
 
 Move into the project directory:
 
