@@ -1,57 +1,57 @@
-Webdroid 
+# 📱 WebDroid
 
-Webdroid is a Python-based web security toolkit designed for learning, experimentation, and authorized security testing.
+<p align="center">
+  <img src="https://github.com" alt="WebDroid Banner" width="800">
+</p>
 
-The project brings together several useful reconnaissance and web security features in a single command-line interface. It is currently in its early stages and will continue to evolve with new modules, improvements, and additional functionality.
+WebDroid is a Python-based web security toolkit designed for learning, experimentation, and authorized penetration testing. It brings several useful reconnaissance and web security features together under a single, user-friendly command-line interface.
 
-Webdroid is also a personal learning project. As the project develops, the goal is not only to add new features, but also to improve the codebase, optimize existing modules, and build a better understanding of how the underlying techniques work.
-<img width="1284" height="946" alt="image" src="https://github.com/user-attachments/assets/04e64603-ee33-4683-9409-4aff97e3d375" />
+This project is also a personal learning journey aimed at improving code quality, optimizing security modules, and deeply understanding network and web vulnerabilities.
 
+---
 
+## 🚀 Features
 
-Features
-🔍 Port & Service Scanner
+*   **🔍 Port & Service Scanner:** Scan target hosts for open ports and banners to identify running services.
+*   **🔐 Brute Force Module:** Test authentication strength against target forms or protocols in authorized environments.
+*   **🛡️ Quick Vulnerability Scanner:** Automated basic checks for common web flaws:
+    *   SQL Injection (SQLi)
+    *   Cross-Site Scripting (XSS)
+*   **📄 HTML Source Code Saver:** Fetch and download the HTML source code of any target web page for offline analysis.
+*   **🔎 Admin Path Finder:** Scan and locate hidden administrative panels or common server directories.
 
-Scan a target for common ports and identify available services.
+---
 
-🔐 Brute Force Module
+## 🛠️ Installation & Setup
 
-A module for testing authentication strength in authorized environments.
+Follow these steps to clone the repository, install the necessary dependencies, and run the security toolkit on your local machine:
 
-🛡️ Quick Vulnerability Scanner
+### 1. Clone the Repository
+```bash
+git clone https://github.com
+```
 
-Basic checks for common web vulnerabilities, including:
+### 2. Move into the Directory
+```bash
+cd WebDroid
+```
 
-SQL Injection (SQLi)
-Cross-Site Scripting (XSS)
-📄 HTML Source Code Saver
+### 3. Install Dependencies
+Make sure you have Python 3 and pip installed. Run the following command to download all required modules:
+```bash
+pip3 install -r requirements.txt
+```
 
-Retrieve and save the HTML source code of a target page for further analysis.
+### 4. Run the Tool
+```bash
+python3 main.py
+```
 
-🔎 Admin Path Finder
+---
 
-Check common administrative paths and directories on a target.
+## 📖 Usage
 
-Installation
-
-Clone the repository:
-
-git clone https://github.com/explo1ttt-0/WebDroid.git
-
-Move into the project directory:
-
-cd Webdroid
-
-Install the required dependencies:
-
-pip install -r requirements.txt
-
-Run the tool:
-
-python3 webdroid.py
-Usage
-
-After launching Webdroid, select one of the available modules from the main menu and provide the required target information.
+After launching WebDroid, a command-line interface menu will appear. Simply select the number of the module you wish to use and follow the prompt instructions to provide target details (IP or URL):
 
 1. Port & Service Scanner
 2. Brute Force Module
@@ -59,26 +59,27 @@ After launching Webdroid, select one of the available modules from the main menu
 4. HTML Source Code Saver
 5. Admin Path Finder
 6. Exit
-Roadmap
 
-Webdroid is still under development. Some planned improvements include:
+---
 
- Expanded admin path wordlists
- Improved vulnerability detection
- More accurate result analysis
- Better error handling
- Improved output and reporting
- Additional scanning options
- New modules and features
- Code optimization and refactoring
-Disclaimer
+## 🗺️ Roadmap
 
-⚠️ Webdroid is intended for educational purposes and authorized security testing only.
+WebDroid is under active development. Upcoming milestones include:
+- [ ] Expanded and customizable admin path wordlists.
+- [ ] Advanced vulnerability detection payloads.
+- [ ] Multithreading support for faster scanning speeds.
+- [ ] Comprehensive HTML/JSON report generation.
+- [ ] Code optimization and robust error handling.
 
-Only use this tool against systems, applications, or networks that you own or have explicit permission to test.
+---
 
-The developer is not responsible for misuse, unauthorized testing, or damage caused by the use of this software.
+## ⚠️ Disclaimer
 
-Author
+**WebDroid is intended for educational purposes and authorized security testing only.**  
+Only deploy this tool against systems, networks, or applications that you legally own or have explicit written permission to test. The developer assumes absolutely no liability for misuse, unauthorized activities, or legal damages caused by this software.
 
-Developed and maintained by Explo1ttt
+---
+
+## 👤 Author
+
+*   **Developed and maintained by:** [Explo1ttt](https://github.com)
