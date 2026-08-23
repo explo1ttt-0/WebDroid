@@ -1,12 +1,9 @@
-# 📱 WebDroid
-
-<p align="center">
-  <img src="https://github.com" alt="WebDroid Banner" width="800">
-</p>
+**  WebDroid by Explo1ttt-0  **
 
 WebDroid is a Python-based web security toolkit designed for learning, experimentation, and authorized penetration testing. It brings several useful reconnaissance and web security features together under a single, user-friendly command-line interface.
 
 This project is also a personal learning journey aimed at improving code quality, optimizing security modules, and deeply understanding network and web vulnerabilities.
+![Uploading image.png…]()
 
 ---
 
