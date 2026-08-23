@@ -5,6 +5,9 @@ Webdroid is a Python-based web security toolkit designed for learning, experimen
 The project brings together several useful reconnaissance and web security features in a single command-line interface. It is currently in its early stages and will continue to evolve with new modules, improvements, and additional functionality.
 
 Webdroid is also a personal learning project. As the project develops, the goal is not only to add new features, but also to improve the codebase, optimize existing modules, and build a better understanding of how the underlying techniques work.
+<img width="1284" height="946" alt="image" src="https://github.com/user-attachments/assets/04e64603-ee33-4683-9409-4aff97e3d375" />
+
+
 
 Features
 🔍 Port & Service Scanner
