@@ -17,7 +17,6 @@ This project is also a personal learning journey aimed at improving code quality
 *   **🛡️ Quick Vulnerability Scanner:** Automated basic checks for common web flaws:
     *   SQL Injection (SQLi)
     *   Cross-Site Scripting (XSS)
-*   **📄 HTML Source Code Saver:** Fetch and download the HTML source code of any target web page for offline analysis.
 *   **🔎 Admin Path Finder:** Scan and locate hidden administrative panels or common server directories.
 
 ---
