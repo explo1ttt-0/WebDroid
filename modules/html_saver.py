@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import requests
 import os
+from bs4 import BeautifulSoup
 
 def run():
     print("\n[+] HTML Source Code Saver started.")
@@ -8,20 +9,21 @@ def run():
     
     try:
         response = requests.get(url, timeout=10)
-        response.raise_for_status()  # Eğer 4xx veya 5xx hatası varsa exception fırlat.
+        response.raise_for_status()
         
-        # Kullanıcıdan dosya adı isteyelim
+        # BeautifulSoup ile pretty-print yap
+        soup = BeautifulSoup(response.text, 'html.parser')
+        pretty_html = soup.prettify()
+        
         filename = input("Enter filename to save (without extension, e.g. 'index'): ")
         if not filename:
-            # Eğer boş bırakırsa URL'den otomatik isim oluşturalım
             filename = url.replace("https://", "").replace("http://", "").replace("/", "_")
         filename += ".html"
         
-        # Dosyayı yaz
         with open(filename, 'w', encoding='utf-8') as f:
-            f.write(response.text)
+            f.write(pretty_html)
         
-        print(f"[+] Successfully saved to {filename} (Size: {len(response.text)} characters)")
+        print(f"[+] Successfully saved to {filename} (Size: {len(pretty_html)} characters)")
     
     except requests.exceptions.ConnectionError:
         print("[-] Connection error: Could not reach the URL.")
