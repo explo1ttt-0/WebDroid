@@ -54,9 +54,8 @@ After launching WebDroid, a command-line interface menu will appear. Simply sele
 
 1. Port & Service Scanner
 2. Brute Force Module
-3. Quick Vulnerability Scanner (SQLi / XSS)
-4. HTML Source Code Saver
-5. Exit
+3. Quick Vulnerability Scanner (SQLi / XSS)   
+4. Exit
 
 ---
 
