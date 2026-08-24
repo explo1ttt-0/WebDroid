@@ -40,9 +40,8 @@ def main_menu():
         print(" 1. Port & Service Scanner")
         print(" 2. Brute Force Attack")
         print(" 3. Quick Vulnerability Scanner (SQLi / XSS)")
-        print(" 4. HTML Source Code Saver")
-        print(" 5. Admin Path Finder")
-        print(f"{RED} 6. Exit")
+        print(" 4. Admin Path Finder")
+        print(f"{RED} 5. Exit")
         print(f"{GREEN}================================================")
 
         choice = input(f"{YELLOW}[?] Enter your choice (1-6): {RESET}")
@@ -62,18 +61,13 @@ def main_menu():
             from modules.vuln_scanner import run
             run()
         
-        # --- 4. HTML Source Saver ---
+        # --- 4. Admin Path Finder ---
         elif choice == '4':
-            from modules.html_saver import run
-            run()
-        
-        # --- 5. Admin Path Finder ---
-        elif choice == '5':
             from modules.admin_finder import run
             run()
         
-        # --- 6. Exit ---
-        elif choice == '6':
+        # --- 5. Exit ---
+        elif choice == '5':
             print(f"{RED}[!] Exiting... Goodbye!")
             sys.exit(0)
         
